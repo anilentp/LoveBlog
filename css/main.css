@@ -1,4 +1,97 @@
 @charset "UTF-8";
+li {
+  display: inline;
+  margin: 1%;
+  text-align: center; }
+
+span {
+  color: #E8603C;
+  background-color: #fff;
+  padding-right: 2%;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+a:link {
+  color: #BCBCBC;
+  text-decoration: none; }
+  a:link:hover {
+    color: #E8603C;
+    text-decoration: none; }
+  a:link:visited {
+    color: #E8603C;
+    text-decoration: none; }
+  a:link:active {
+    color: #E8603C;
+    text-decoration: none; }
+
+button {
+  background-color: #E8603C;
+  color: white; }
+  button:hover {
+    background-color: #F2AE9C;
+    color: white; }
+
+.floatright {
+  float: right; }
+
+.floatleft {
+  float: left; }
+
+.logo {
+  font-size: 85px;
+  margin: 0;
+  color: #E8603C; }
+
+.pink {
+  color: #F2AE9C; }
+
+#nav {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.footer_area {
+  color: #fff; }
+
+.bg-red {
+  background-color: #E8603C;
+  border-left: solid 10px #fff;
+  border-right: solid 10px #fff; }
+
+.bg-lines {
+  background: url("../images/heading-bg.png");
+  background-repeat: repeat; }
+
+.bg-border {
+  background: url("../images/galley_photo.png");
+  background-repeat: repeat; }
+
+.mainmenu {
+  text-align: right;
+  display: inline; }
+
+.fix {
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.about {
+  width: 25%;
+  border: 1px solid #BCBCBC;
+  margin: 1%; }
+
+.title {
+  color: white;
+  margin: 1%; }
+
+.imgbg {
+  width: 100%; }
+
+.text {
+  width: 100%; }
+
+.gallery {
+  margin: 1%;
+  border: 1px solid #E8603C; }
+
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.

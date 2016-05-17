@@ -1,0 +1,37 @@
+li{
+	display: inline;
+	margin: 1%;
+	text-align: center;
+}
+
+span{
+	color: $red;
+	background-color: $white;
+	padding-right: 2%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+a:link{
+	color:$grey;
+	text-decoration: none;
+	&:hover{
+		color: $red;
+		text-decoration: none;
+	}
+	&:visited{
+		color: $red;
+		text-decoration: none;
+	}
+	&:active{
+		color: $red;
+		text-decoration: none;
+	}
+}
+button{
+	background-color: $red;
+	color: white;
+	&:hover{
+		background-color: $pink;
+		color: white;
+	}
+}

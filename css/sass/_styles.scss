@@ -1,0 +1,61 @@
+.floatright{
+	float: right;
+}
+.floatleft{
+	float: left;
+}
+.logo{
+	font-size: 85px;
+	margin: 0;
+	color:$red;
+}
+.pink{
+	color:$pink;
+}
+#nav{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.footer_area{
+	color: $white;
+}
+.bg-red{
+	background-color: $red;
+	border-left: solid 10px $white;
+	border-right: solid 10px $white;
+}
+.bg-lines{
+	background: url("../images/heading-bg.png"); 
+	background-repeat: repeat;
+}
+.bg-border{
+	background: url("../images/galley_photo.png"); 
+	background-repeat: repeat; 
+}
+.mainmenu{
+	text-align: right;
+	display: inline;
+}
+.fix{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.about{
+	width: 25%;
+	border:1px solid $grey;
+	margin: 1%;
+}
+.title{
+	color: white;
+	margin:1%;
+}
+.imgbg{
+	width: 100%;
+}
+.text{
+	width:100%;
+}
+.gallery{
+	margin: 1%;
+	border: 1px solid $red;
+}
