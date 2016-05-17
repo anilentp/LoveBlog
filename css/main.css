@@ -92,6 +92,15 @@ button {
   margin: 1%;
   border: 1px solid #E8603C; }
 
+.cita {
+  border-left: 5px #E8603C solid;
+  color: #E8603C;
+  display: block;
+  margin-left: 5%; }
+
+.bm {
+  margin-bottom: 10%; }
+
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
