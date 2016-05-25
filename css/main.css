@@ -31,6 +31,23 @@ button {
     background-color: #F2AE9C;
     color: white; }
 
+p {
+  text-align: justify; }
+
+input {
+  /* WebKit */
+  /* Firefox 18- */
+  /* Firefox 19+ */
+  /* IE 10+ */ }
+  input ::-webkit-input-placeholder {
+    color: blue; }
+  input :-moz-placeholder {
+    color: blue; }
+  input ::-moz-placeholder {
+    color: blue; }
+  input :-ms-input-placeholder {
+    color: blue; }
+
 .floatright {
   float: right; }
 
@@ -63,7 +80,8 @@ button {
 
 .bg-border {
   background: url("../images/galley_photo.png");
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  min-height: 50px; }
 
 .mainmenu {
   text-align: right;
@@ -100,6 +118,56 @@ button {
 
 .bm {
   margin-bottom: 10%; }
+
+.iconout {
+  margin-left: -10%; }
+
+.title-red {
+  color: #E8603C;
+  text-transform: uppercase; }
+
+.ppal {
+  margin-top: -73px;
+  width: 100%; }
+
+.blog {
+  color: #BCBCBC; }
+
+.sep:after {
+  content: "|";
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  color: #BCBCBC; }
+
+.linkport {
+  display: inline;
+  color: #BCBCBC;
+  text-transform: uppercase;
+  text-align: center; }
+  .linkport:hover {
+    background-color: #E8603C;
+    color: #fff; }
+
+.name {
+  color: #BCBCBC;
+  text-transform: uppercase; }
+
+.fecha {
+  color: #F2AE9C;
+  text-transform: uppercase; }
+
+.foto, .texto {
+  border: 1px solid #BCBCBC;
+  padding: 1px;
+  margin: 2%;
+  width: 100%; }
+
+.peli {
+  width: inherit; }
+
+.tx-grey {
+  color: #BCBCBC; }
 
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)

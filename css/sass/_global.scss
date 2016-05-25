@@ -35,3 +35,12 @@ button{
 		color: white;
 	}
 }
+p{
+	text-align: justify;
+}
+input{
+::-webkit-input-placeholder { color: blue; }; /* WebKit */
+:-moz-placeholder { color: blue; }; /* Firefox 18- */
+::-moz-placeholder { color: blue; }; /* Firefox 19+ */
+:-ms-input-placeholder { color: blue; }; /* IE 10+ */
+}

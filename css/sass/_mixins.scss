@@ -1,0 +1,6 @@
+@mixin foto ($border, $pd, $mg){
+	border:$border;
+	padding: $pd;
+	margin: $mg;
+	width: 100%;
+}

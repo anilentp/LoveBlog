@@ -1,6 +1,6 @@
 .floatright{
 	float: right;
-}
+} 
 .floatleft{
 	float: left;
 }
@@ -12,7 +12,7 @@
 .pink{
 	color:$pink;
 }
-#nav{
+#nav{ 
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -31,6 +31,7 @@
 .bg-border{
 	background: url("../images/galley_photo.png"); 
 	background-repeat: repeat; 
+	min-height: 50px;
 }
 .mainmenu{
 	text-align: right;
@@ -67,4 +68,52 @@
 }
 .bm{
 	margin-bottom: 10%;
+}
+.iconout{
+	margin-left: -10%;
+}
+.title-red{
+	color: $red;
+	text-transform: uppercase;
+}
+.ppal{
+	margin-top: -73px;
+    width: 100%;
+}
+.blog{
+	color: $grey;
+}
+.sep:after{
+	content: "|";
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto;
+	color: $grey;
+}
+.linkport{
+	display: inline;
+	color:$grey;
+	text-transform: uppercase;
+	text-align: center;
+	&:hover{
+		background-color: $red;
+		color:$white;
+	}
+}
+.name{
+	color: $grey;
+	text-transform: uppercase;
+}
+.fecha{
+	color: $pink;
+	text-transform: uppercase;
+}
+.foto, .texto{
+	@include foto(1px solid $grey, 1px, 2%)
+}
+.peli{
+	width: inherit;
+}
+.tx-grey{
+	color: $grey;
 }
